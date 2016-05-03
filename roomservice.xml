@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remove-project name="Team-Win-Recovery-Project" />
+  <remove-project name="platform/external/freetype" />
+
+  <project name="Team-Win-Recovery-Project" path="bootable/recovery" remote="multirom" revision="master" />
+  <project path="external/freetype" name="platform/external/freetype" groups="pdk" revision="refs/tags/android-6.0.1_r30" />
+  <project path="external/pdfium" name="platform/external/pdfium" groups="pdk" revision="refs/tags/android-6.0.1_r30" />
+
+</manifest>
+
